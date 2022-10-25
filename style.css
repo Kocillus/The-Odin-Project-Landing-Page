@@ -6,12 +6,13 @@ header, .hero {
     background-color: #1F2937;
     color: #e5e7eb;
     margin: 0;
-    padding: 20px 300px 20px 300px;
+    padding-top: 20px;
+
 }
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
 }
 
@@ -28,8 +29,7 @@ header button {
 }
 
 .hero {
-    padding-left: 350px;
-    padding-right: 350px;
+    padding: 20px 300px 20px 300px;
 }
 
 .hero img {
@@ -40,6 +40,7 @@ header button {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding-top: 30px;
     padding-bottom: 50px;
     flex: 1 0 auto;
@@ -48,7 +49,7 @@ header button {
 
 .itemHero {
     flex-direction: column;
-    padding-right: 50px;;
+    padding-right: 50px
 }
 
 .containerHero h1 {
@@ -135,7 +136,7 @@ h2 {
 }
 
 .quoteAuthor {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     color: #1F2937;
     margin: 0;
@@ -181,4 +182,13 @@ h2 {
     height: 25px;
     font-weight: bold;
     margin: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    margin: 0;
+    color: #e5e7eb;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

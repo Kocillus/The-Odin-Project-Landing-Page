@@ -13,12 +13,16 @@ header, .hero {
 .header-container {
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center;
 }
 
 .headerLogo {
     color: #f9faf8;
     font-size: 24px;
+}
+
+.headerLogo img {
+    width: 200px;
 }
 
 header button {

@@ -22,7 +22,7 @@ header, .hero {
 }
 
 .headerLogo img {
-    width: 200px;
+    width: 180px;
 }
 
 header button {
@@ -37,7 +37,8 @@ header button {
 }
 
 .hero img {
-    width: 400px;
+    width: 500px;
+    border: double 10px; 
 }
 
 .containerHero {
